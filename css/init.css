@@ -89,9 +89,7 @@ nav img{
     padding: 0.5rem;
 
 }
-.translate-ar a{
-    
-}
+
 
 .tanslat-ar img{
     width: 2.5rem;
@@ -103,4 +101,31 @@ nav img{
 }
 .ac-ar{
     color:rgb(68, 103, 177);
+}
+header{
+    width: 100%;
+    height: 15rem;
+    background-color: #e7c622f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 45%;
+    height: 100%;
+    font-family: var(--title-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content h1{
+    font-weight:bold;
+    text-align: center;
+}
+.content p{
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color:rgb(33, 93, 224);
+    font-weight: bold;
 }
