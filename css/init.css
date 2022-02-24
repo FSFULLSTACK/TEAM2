@@ -33,6 +33,7 @@ html{
     /* (62.5 * 16px) / 100 = 10px */
     font-size: 62.5%;
 }
+/* styling of header and footer */
 
 .navbar{
     background-color: var(--light-blue);
@@ -44,7 +45,7 @@ html{
     align-items: center;
 
 }
-.navbar img{
+.logo{
     width:6rem;
     margin-left: 3rem;
 }
