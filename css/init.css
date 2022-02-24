@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
 :root{
 
     /* Headings and titles font */
@@ -31,4 +31,57 @@ html{
 
     /* (62.5 * 16px) / 100 = 10px */
     font-size: 62.5%;
+}
+.section1{
+    width: 100%;
+    height: 64rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.left-img{
+    margin-left: 5rem;
+    width: 40%;
+}
+.text{
+    width: 50%;
+    height: 64rem;
+    margin-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--text-font);
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.text h2{
+    color:var(--blue);
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+.text p{
+    color: var(--gray);
+    line-height: 3.5rem;
+    word-spacing: 0.5rem;
+}
+.button{
+    background-color: var(--blue);
+    width: 60% ;
+    height: 5rem ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 2;
+    color: white;
+    padding: 5px;
+    text-transform: capitalize;
 }
