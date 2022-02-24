@@ -1,17 +1,4 @@
-:root{
 
-    /* Headings and titles font */
-    --title-font :  'Josefin Sans', sans-serif;
-
-    /* text and paragraphs font */
-    --text-font : 'Karla', sans-serif;
-
-    /* User interface colors  */
-    --blue :  #1078ad;
-    --yellow : #f4cf1b;
-    --gray:#9a9a9a;
-    --blue-shade : #2684b5;
-}
 #main{
     display: flex;
     flex-direction: column;
@@ -86,7 +73,7 @@
     font-family: var(--title-font);
     font-weight: bolder;
     font-size: 3.56rem;
-    word-spacing: 0;5rem;
+    word-spacing: 0.5rem;
     color: var(--blue);
 }
 .block {
