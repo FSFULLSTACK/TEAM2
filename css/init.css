@@ -9,6 +9,7 @@
     --text-font : 'Karla', sans-serif;
 
     /* User interface colors  */
+    --light-blue:#8ccae9;
     --blue :  #1078ad;
     --yellow : #f4cf1b;
     --gray:#9a9a9a;
@@ -33,5 +34,105 @@ html{
     font-size: 62.5%;
 }
 
+<<<<<<< HEAD
 /* styling of header and footer */
 
+=======
+.navbar{
+    background-color: var(--light-blue);
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar img{
+    width:6rem;
+    margin-left: 3rem;
+}
+.nav-items{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+    font-family: var(--title-font);
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 3rem;
+}
+.nav-items a{
+    text-decoration: none;
+
+}
+.nav-items li{
+    list-style: none;
+}
+
+.list{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin-right: 6rem;
+   
+}
+
+
+
+.tanslat-ar{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:23%;
+    border: 2px solid var(--blue);
+    border-radius:10px ;
+    padding: 0.5rem;
+
+}
+
+
+.tanslat-ar img{
+    width: 2.5rem;
+    margin-left: -0.001rem;
+}
+
+.Conseil{
+    color: black;
+}
+.ac-ar{
+    color:var(--blue);
+}
+.header{
+    width: 100%;
+    height: 15rem;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 45%;
+    height: 100%;
+    font-family: var(--title-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.content h1{
+    font-size: 2rem;
+    font-weight:bold;
+    text-align: center;
+}
+.content p{
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color:var(--blue);
+    font-weight: bold;
+}
+>>>>>>> 1289fc0a607623b0ff24d4af778704e7599ca8ce
