@@ -35,18 +35,19 @@ margin-left: 5rem;
     text-align: center;
     font-weight: bold;
     line height: 2rem;
-    word-spacing:
-
 }
 .text h2{
     color:var(--blue);
     line-height: 4rem;
+    margin-bottom: 2rem;
 }
 .text p{
     color: var(--gray);
     line-height: 3.5rem;
+    word-spacing: 0.5rem;
 }
 .button{
     background-color: var(--blue);
-    width: ;
+    width: 60% ;
+    height: ;
 }
