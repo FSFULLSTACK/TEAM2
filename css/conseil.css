@@ -1,6 +1,21 @@
+:root{
+
+    /* Headings and titles font */
+    --title-font :  'Josefin Sans', sans-serif;
+
+    /* text and paragraphs font */
+    --text-font : 'Karla', sans-serif;
+
+    /* User interface colors  */
+    --blue :  #1078ad;
+    --yellow : #f4cf1b;
+    --gray:#9a9a9a;
+    --blue-shade : #2684b5;
+}
+
 .section-1-conseil{
     width: 100%;
-    height: auto;
+    height: 120rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -11,20 +26,122 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    height: 50rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+.first-block h2{
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #2684b5;
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    line-height: 4.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+   
+    
 }
 .content-6{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10rem;
+    grid-row-gap: 5rem;
+    grid-column-gap: 16rem;
+ 
+    
+
+    
+}
+.item{
+    width: 19rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item h3{
+    font-size: 1.8rem;
+    font-family:'Josefin Sans', sans-serif ;
+    text-align: center;
+
+}
+.item img{
+    width: 10rem;
+    height: 10rem;
+
 }
 .second-block{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    height: 20rem;
+    width: 80%;
+    
+}
+.txt{
+    width: 50%;
+}
+.txt p{
+    font-size: 2rem;
+    font-family:'Josefin Sans', sans-serif ;
+    text-align: center;
+    font-weight: 600;
 }
 .third-block{
+    background-color:rgba(69, 132, 226, 0.363);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    height: 18rem;
+    width: 100%;
+    margin-top: 4rem;
+}
+.item-text{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item-text h3{
+    font-family: var(--title-font);
+    font-weight: 900;
+    font-size: 3.7rem;
+    color:#0f638d;
+}
+
+.item-text h4{
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 2.3rem;
+    color:rgb(45, 100, 177);
+    text-align: center;
+    line-height: 3rem;
+
+}
+.Btn{
+    width: 15%;
+    height: 6rem;
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: var(--text-font);
+    font-weight: 700;
+    
+}
+.Btn a{
+    text-decoration: none;
+    color: white;
 }
