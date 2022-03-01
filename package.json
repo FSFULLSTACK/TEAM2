@@ -1,0 +1,28 @@
+{
+  "name": "team2",
+  "version": "1.0.0",
+  "description": "Covid pages tracker",
+  "main": "index.js",
+  "scripts": {
+    "server":"live-server --browser=chrome",
+    "compile":"node-sass sass/main.scss css/style.css",
+    "see":"npm-run-all compile server",
+    "watch":"node-sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FSFULLSTACK/TEAM2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FSFULLSTACK/TEAM2/issues"
+  },
+  "homepage": "https://github.com/FSFULLSTACK/TEAM2#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "live-server": "^1.2.1",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
