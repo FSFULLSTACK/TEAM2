@@ -89,3 +89,51 @@ html {
     font-size: 1.7rem;
     line-height: 3rem;
     color: #2983b3; }
+
+.acceuil {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .acceuil__img {
+    margin-left: 5rem;
+    width: 40%; }
+  .acceuil__content {
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2rem; }
+  .acceuil__title {
+    color: #1078ad;
+    line-height: 4rem;
+    margin-bottom: 2rem; }
+  .acceuil__paragraph {
+    color: #9a9a9a;
+    line-height: 3.5rem;
+    word-spacing: 0.5rem; }
+  .acceuil__button {
+    background-color: #1078ad;
+    width: 60%;
+    height: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 6px; }
+    .acceuil__button a {
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 2;
+      color: white;
+      padding: 5px;
+      text-transform: capitalize; }
